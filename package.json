@@ -6,6 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "seed:user": "node src/db/create-first-user.js",
+    "seed:pokemons": "node src/db/seed-pokemons.js",
+    "seed:all": "node src/db/seed-all.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
