@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start:docker": "node --watch index.js",
     "seed:user": "node src/db/create-first-user.js",
     "seed:pokemons": "node src/db/seed-pokemons.js",
     "seed:all": "node src/db/seed-all.js",
